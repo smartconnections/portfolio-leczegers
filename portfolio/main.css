@@ -1,160 +1,53 @@
-/*Start global*/
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mijn Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Smart Industry</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav nav" role="tablist">
+                <a class="nav-item nav-link" data-toggle="tab" href="#start" id="start-tab" role="tab" aria-controls="start" aria-selected="true"><i class="fa fa-fw fa-home"></i>Start <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" data-toggle="tab" href="#business" id="business-tab" role="tab" aria-controls="business" aria-selected="true"><i class="fa fa-handshake-o"></i> Business</a>
+                <a class="nav-item nav-link" data-toggle="tab" href="#connection" id="connection-tab" role="tab" aria-controls="connection" aria-selected="true"><i class="fa fa-code"></i> Connection</a>
+                <a class="nav-item nav-link" data-toggle="tab" href="#technology" id="technology-tab" role="tab" aria-controls="technology" aria-selected="true"><i class="fa fa-cog"></i> Technology</a>
+                <a class="nav-item nav-link" data-toggle="tab" href="#project" id="project-tab" role="tab" aria-controls="project" aria-selected="true"><i class="fa fa-rocket"></i> Project</a>
+            </div>
+        </div>
+    </nav>
+    <div class="tab-content container">
+        <div class="tab-pane active fade show" id="start" role="tabpanel" aria-labelledby="start-tab">
+            <p>Welcome</p>
+        </div>
+        <div class="tab-pane fade" id="business" role="tabpanel" aria-labelledby="business-tab">
+            <p>I'm in Business</p>
+            <img src="https://images.unsplash.com/photo-1580628173364-43e13f68546f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" alt="foto
+" width="200" height="400">
+        </div>
+        <div class="tab-pane fade" id="connection" role="tabpanel" aria-labelledby="connection-tab">
+            <p>I'm in Connection</p>
+        </div>
+        <div class="tab-pane fade" id="technology" role="tabpanel" aria-labelledby="technology-tab">
+            <p>I'm in Technology</p>
+        </div>
+        <div class="tab-pane fade" id="project" role="tabpanel" aria-labelledby="project-tab">
+            <p>I'm in Project</p>
+        </div>
+    </div>
 
-html{
-    font-size: 10px;
-    font-family: 'Roboto', sans-serif;
-    color: #eee;
-}
+    <!-- FOR BOOTSTRAP -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-body{
-    width: 100%;
-    height: 100%;
-    background: url("images/sitebg.jpg") no-repeat center fixed;
-    background-size: cover;
-}
-
-a{
-     text-decoration: none;
-     color: #eee;
-}
-
-p{
-    font-size: 1.8rem;
-    font-weight: 300;
-}
-
-img{
-    width: 50%;
-}
-/*End global*/
-
-/*Start reusable*/
-/*End reusable*/
-
-/*Start header*/
-header{
-    width: 100%;
-    height: 100vh;
-}
-
-.top-nav{
-    width: 100%;
-    height: 100vh;
-    position: fixed;
-    top: -100vh;
-    background-color: #3a2c88;
-    border-bottom-right-radius: 100%;
-    border-bottom-left-radius: 100%;
-    transition: all 650ms cubic-bezier(1,0,0,1);
-}
-
-.nav-list{
-    list-style: none;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-li{
-    margin: 0 2rem;
-}
-
-.nav-link{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 5rem;
-    padding: 1rem;
-}
-
-.nav-link:hover,
-.nav-link:focus{
-    background: linear-gradient(to top, #ffe838, #fd57bf); 
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.top-nav.open{
-    top: 0;
-    border-radius: initial;
-}
-
-.menu-toggler{
-    position: absolute;
-    top: 5rem;
-    right: 5rem;
-    width: 5rem;
-    height: 4rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    cursor: pointer;
-    z-index: 1500;
-    transition: transform 650ms ease-out;
-}
-
-.menu-toggler.open{
-    transform: rotate(-45deg);
-}
-
-.bar{
-    background: linear-gradient(to right, #38ff7a, #fd57fd);
-    width: 100%;
-    height: 4px;
-    border-radius: .8rem;
-
-}
-
-.bar.half{
-    width: 50%;
-}
-
-.bar.start{
-    transform-origin: right;
-    transition: transform 650ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
-}
-
-.open_.bar.start{
-    transform: rotate(-450deg) translateX(.8rem);
-}
-
-.bar.end{
-    align-self: flex-end;
-    transform-origin: left;
-    transition: transform 650ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
-}
-
-.open_.bar.end{
-    transform: rotate(-450deg) translateX(-.8rem);
-}
-
-/*End header*/
-
-/*Start about*/
-/*End about*/
-
-/*Start services*/
-/*End services*/
-
-/*Start portfolio*/
-/*End services*/
-
-/*Start timeline*/
-/*End timeline*/
-
-/*Start contact*/
-/*End contact*/
-
-/*Start footer*/
-/*End footer*/
-
-/*Start animations*/
-/*End animations*/
-
-/*Start media queries*/
-/*End media queries*/
+</body>
+</html>
