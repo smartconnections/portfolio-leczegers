@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio MSI Lisanne Zegers</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://www.dafont.com/search.php?q=histori">
+    <link rel="stylesheet" href="https://www.fontsquirrel.com/fonts/pacifico">
+</head>
+<body>
+    <header>
+        <div class="menu-toggler">
+           <div class="bar half start"></div>
+           <div class="bar"></div>
+           <div class="bar half end"></div>
+        </div>
+        <nav class="top-nav">
+            <ul class="nav-list">
+                <li>
+                    <a href="#about" class="nav-list">About</a>
+                </li>
+                <li>
+                    <a href="#smartstart" class="nav-list">Smart Start</a>
+                </li>
+                <li>
+                    <a href="#smartconnection" class="nav-list">Smart Connection</a>
+                </li>
+                <li>
+                    <a href="#smarttechnology" class="nav-list">Smart Technology</a>
+                </li>
+                <li>
+                    <a href="#smartbusiness" class="nav-list">Smart Business</a>
+                </li>
+                <li>
+                    <a href="#smartproject" class="nav-list">Smart Project</a>
+                </li>
+                <li>
+                    <a href="#contact" class="nav-list">Contact</a>
+                </li>
+
+            </ul>
+        </nav>
+        <div class="landing-text">
+            <h1>Lisanne Zegers</h1>
+            <h6>Portfolio Minor Smart Industry</h6>
+        </div>
+    </header>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="profile-img">
+                <img src="images/Profiel.png" alt="">
+            </div>
+            <div class="about-details">
+                <div class="about-heading">
+                    <h1>Over</h1>
+                    <h6>Mijzelf</h6>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Corrupti veritatis ipsam officia hic facilis illo laboriosam 
+                    maxime sunt illum, id, delectus in, provident nostrum? 
+                    Facilis maxime eligendi debitis nostrum obcaecati?
+                </p>
+                <div class="social-media">
+                    <ul class="nav-list">
+                        <li>
+                            <a href="https://www.facebook.com/lisanne.zegers/" class="icon-link">
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/lisannezegers/" class="icon-link">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/lisanne-z-6b77bbb6/" class="icon-link">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Smart Start</h1>
+                <h6>what</h6>
+            </div>
+            <div class="smart-start">
+                <div class="skill">
+                    <h1>Week 1</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    </p>
+                </div>
+                <div class="skill">
+                    <h1>Week 2</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    </p>
+                </div>
+                <div class="skill">
+                    <h1>Week 3</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="Smart Connection" id="smartconnection">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Smart Connection</h1>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-img has-margin-right">
+                    <img src="images/portitem1.jpeg" alt="">
+                </div>
+                <div class="portfolio-description">
+                    <h1>Week 1</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    </p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-description has-margin-right">
+                    <h1>Week 2</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    </p>
+                </div>
+                <div class="portfolio-img has-margin-right">
+                    <img src="images/portitem2.jpeg" alt="">
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-img">
+                    <img src="images/portitem3.jpeg" alt="">
+                </div>
+                <div class="portfolio-description">
+                    <h1>Week 3</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="Smart Technology" id="smarttechnology">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Smart Technology</h1>
+            </div>
+         </div>
+    </section>
+
+    <section class="Smart Business" id="smartbusiness">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Smart Business</h1>
+            </div>
+        </div>
+    </section>
+
+    <section class="Smart Project" id="smartproject">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Smart Project</h1>
+            </div>
+        </div>
+    </section>
+
+    <section class="Contact" id="Contact">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Contact</h1>
+                <h6>Stel hier uw vraag</h6>
+            </div>
+            <form action="">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name..." required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email..." required>
+                <label for="vraag">Vraag:</label>
+                <textarea name="vraag" id="vraag" cols="25" rows="1"></textarea>
+                <input type="verstuur" value="verstuur">
+            </form>
+        </div>
+    </section>
+
+    <footer class="copyrigth">
+        <div class="copyright=">
+            <p> &copy; 2020 Lisanne Zegers</p>
+        </div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="main.js"></script> 
+</body>
+</html>
